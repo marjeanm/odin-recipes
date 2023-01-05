@@ -2,10 +2,16 @@
   box-sizing: border-box;
 }
 body {
+  background-color: rgb(41, 47, 54);
+  color: white;
   display: flex;
   justify-content: space-evenly;
+  height: 100vh;
+  align-items: center;
 }
-
+a {
+  color: white;
+}
 .header-list {
   display: flex;
   width: 50%;
