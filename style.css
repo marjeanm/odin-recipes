@@ -12,3 +12,15 @@ body {
   justify-content: space-between;
   align-items: center;
 }
+
+ul {
+  list-style-type: none;
+  padding: 15px;
+}
+h1 {
+  font-size: 53px;
+}
+#search {
+  padding: 15px;
+  border-radius: 15px;
+}
