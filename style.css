@@ -1,0 +1,15 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  justify-content: space-evenly;
+}
+.list-box {
+  border: 1px solid black;
+  width: 20%;
+  border-radius: 11px;
+}
+.header-list {
+  display: flex;
+}
