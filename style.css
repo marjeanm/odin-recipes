@@ -5,7 +5,7 @@
   background-image: url('/images/say-dhpiee8rkTo-unsplash.jpg');
   color: white;
   display: flex;
-  height: 100vh;
+  height: 69vh;
   align-items: stretch;
   justify-content: space-between;
   background-position: center;
@@ -25,6 +25,17 @@ a {
   background-color: white;
   border-radius: 15px;
   width: 25%;
+}
+.list-box::after {
+  content: ' ';
+  position: absolute;
+  top: 66%;
+  height: 37px;
+  width: 24.7%;
+  right: 10px;
+  background: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/23618/rip.svg')
+    bottom;
+  background-size: 73%;
 }
 
 ul {
