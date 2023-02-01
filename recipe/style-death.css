@@ -1,0 +1,29 @@
+* {
+  box-sizing: border-box;
+}
+body,
+html {
+  height: 100%;
+  margin: 0;
+}
+img {
+  height: 550px;
+  width: 100%;
+}
+h1,
+h2 {
+  margin: 0;
+}
+.description {
+  width: 20%;
+  padding: 15px;
+  background-color: rgb(226, 213, 208);
+}
+
+ol {
+  list-style-type: none;
+}
+.ingredients {
+  display: flex;
+  align-items: baseline;
+}
